@@ -1,0 +1,3 @@
+
+sleep 20 	--> start foreground process
+sleep 20 &	--> start background  process
