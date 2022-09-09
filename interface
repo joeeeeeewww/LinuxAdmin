@@ -1,0 +1,14 @@
+
+ifconfig [netwrkInterface] up/down  	-->set up or down
+ifconfig -a		-->  to display network interfaces again
+
+ifconfig [interface] [new ipaddress/mask] up		--> change ipaddress
+	
+
+
+
+---------------------------------
+using ip command:
+ip link set [interface] down/up		--> set
+ip link show dev [interface]		--> show
+
