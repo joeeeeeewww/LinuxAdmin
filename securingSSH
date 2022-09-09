@@ -1,0 +1,10 @@
+
+1. change port num to something else
+2. update PermitRootLogin to no
+3. add AllowUsers to users you want to use ssh
+4. to allow ipaddress to use ssh:(use network ip if allow all
+
+ iptables -A INPUT -p tcp --dport 2279 -s 2.3.4.3 -j ACCEPT
+ iptables -A INPUT -p tcp --dport 2279 -s anotherIpaddress -j ACCEPT
+ iptables -A INPUT -p tcp --dport 2279  -j DROP
+5. set ClientAliveInterval 300 , for example  & ClientAliveCountMax 0
