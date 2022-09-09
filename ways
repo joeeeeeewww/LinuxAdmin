@@ -1,0 +1,3 @@
+./script_name.sh	--> first way to run script
+bash script_name.sh	--> 2nd way to run script.This overrides script shebang.			--> THis not require script to be exeutable
+source script_name.sh	--> 3rd way.This one runs on same running script which m			--> makes it  different from first method.This is same as ` . script_name.sh`
