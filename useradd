@@ -4,4 +4,7 @@ sudo chage -l guest    -->  to view user expiration date
 sudo usermod -c guests guest
 
 sudo groupadd developers
-sudo usermod -G developers guest
+sudo usermod -G developers guest  --> removing user from previous groups
+sudo usermod -aG developers guest  --> appending developers groups to guest previous groups
+
+
