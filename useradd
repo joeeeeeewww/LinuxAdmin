@@ -6,5 +6,5 @@ sudo usermod -c guests guest
 sudo groupadd developers
 sudo usermod -G developers guest  --> removing user from previous groups
 sudo usermod -aG developers guest  --> appending developers groups to guest previous groups
-
+sudo userdel -r guest	--> delete user along with its home directory
 
