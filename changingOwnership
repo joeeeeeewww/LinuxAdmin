@@ -1,0 +1,11 @@
+
+sudo chown guest cpu.txt	--> make guest own cpu.txt
+or sudo chown 1001 cpu.txt	--> using userId, +1001 if theres a similar user named 1001
+
+sudo chown guest:daemon cpu.txt	  --> setting both user and group ownership
+sudo chgrp daemon cpu.txt	---> changing group to daemon
+sudo chown :daemon cpu.txt   --> same effect
+
+sudo chown -R joe:joe ~		--> recursively
+
+
