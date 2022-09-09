@@ -1,0 +1,15 @@
+
+systemctl status ssh	--> check ssh status
+systemctl restart ssh	--> to restart
+systemctl stop ssh	--> to stop
+systemctl start ssh	--> to start
+~/.ssh/known_hosts 	--> servers key lives on client
+telnet ipaddress port	--> to check server port
+nmap -p 22 ipaddress	-->another way to check if server   is open
+iptables -vnL		--> check for firewall rules
+ufw status verbose	--> check status of uncomplicated firewall
+ufw enable		--> to enable
+ufw disable		--> to disable
+ufw app list		--> list applications profile
+ufw allow ssh		--> allow incoming ssh connections
+
