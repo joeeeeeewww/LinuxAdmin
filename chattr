@@ -1,0 +1,3 @@
+
+chattr -i file		--> changing attr to immutable on file
+
