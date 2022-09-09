@@ -1,0 +1,23 @@
+apt update --> pull latest changes from apt repositories
+apt install packageName --> install packageName like apache2
+example------
+apt install apache2
+systemctl status apache2  --> check apache2 status
+Note: access localhost in the browser to test apache2
+-----------
+apt install packageName packagename --> to install multiple packages at once
+apt install pathTODebFile  --> install deb file
+apt list --upgradable  --> to show current installed apps thats upgradable
+apt full-upgrade	--> upgrade whole systems apps (append -y meaning --assume-yes if needed)
+apt remove packageName	--> remove a package but not configuration files
+apt purge  packageName	--> remove a package including configurations
+apt autoremove	--> remove unneeded dependencies
+
+By default, ubuntu keeps all installed and downloaded in a cache directory which is /var/cache/apt/archives
+To clear it , run apt clean
+
+apt list	--> list all installed packages in the system
+apt search "pattern"	--> to find a package whose descrption contains words orphrase
+
+apt list --installed	--> get list of all installed packages
+apt show packageName	--> to display all info bout the package
