@@ -2,3 +2,6 @@
 sudo useradd -m -d /home/guest -c 'comment' -s /bin/bash -G adm,mail user:
 sudo chage -l guest    -->  to view user expiration date
 sudo usermod -c guests guest
+
+sudo groupadd developers
+sudo usermod -G developers guest
