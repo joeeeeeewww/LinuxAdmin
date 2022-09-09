@@ -1,0 +1,5 @@
+
+rsync -av -e ssh /etc/ joe@ipaddress:~/etcAtGuest/	--> copy etc to remote, add --delete to delete a file in remote after deleting from source
+
+rsync -av -e 'ssh -p 22' /etc/ joe@ipaddress:~/etcAtGuest/	--> when including ssh options
+
