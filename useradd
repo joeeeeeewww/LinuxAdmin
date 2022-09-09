@@ -1,0 +1,2 @@
+
+sudo useradd -m -d /home/guest -c 'comment' -s /bin/bash -G adm,mail user:
