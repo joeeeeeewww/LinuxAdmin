@@ -1,0 +1,9 @@
+kill -l  -->  check all kill signals
+pgrep -l firefox   --> find program pid
+kill -2 68575   --> kill firefox program (-1 for restart)
+pidof firefox   --> another way of finding pid of programs
+kill -INT pids   --> another way of stopping a process
+kill -SIGINT $(pidof firefox)   --> yet another way of stopping a process
+killall nameofprocess	--> kill all instances of a process 
+pkill partialnameofprocess
+
