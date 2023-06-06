@@ -1,0 +1,7 @@
+
+sleep 20 	--> start foreground process
+sleep 20 &	--> start background  process
+jobs -l 	--> list background process id
+fg %jobId	--> bring background to foreground
+Cntrl + Z 	---> to suspend process
+bg %jobid	--> to resume in bg
