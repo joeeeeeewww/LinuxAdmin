@@ -1,0 +1,9 @@
+type [command]	--> to check if command is built-in or executable
+cd, alias, umask  --> examples of built-in
+help [built-in command]	---> to see help of built in commands
+[command] --help  --> can be used for both built-in & executables
+man -k [keyword]	--> to search for manpage of commmand using keyword
+			-->this will search 'keyword' in all manpages
+			--> same with `man -k "keyword s"
+apropos [keyword] --> same as `man -k [keyword]
+ 
