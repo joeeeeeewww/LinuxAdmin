@@ -1,0 +1,8 @@
+
+Some history commands:
+
+!number---> execute commands on nth list in history
+!!--> executes last command
+history -d linenum --> delete command frm history
+history -c --> clear entire history
+
