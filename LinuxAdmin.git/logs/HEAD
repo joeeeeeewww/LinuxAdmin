@@ -1,0 +1,38 @@
+0000000000000000000000000000000000000000 6aceec40c83ee938ef01d654b7549d694832f51b joe <joewwwh@gmail.com> 1686063006 -0400	commit (initial): some terminal commands L17
+6aceec40c83ee938ef01d654b7549d694832f51b 94ed7771e1f43ccb4a9f8e4b2eff8147837af7ba joe <joewwwh@gmail.com> 1686063144 -0400	commit (amend): some terminal commands L17
+94ed7771e1f43ccb4a9f8e4b2eff8147837af7ba 2a486574c651541b3dc6237e3b03a2253db45972 joe <joewwwh@gmail.com> 1686065649 -0400	commit: to ignore exclude commands from history L17
+2a486574c651541b3dc6237e3b03a2253db45972 94ed7771e1f43ccb4a9f8e4b2eff8147837af7ba joe <joewwwh@gmail.com> 1686065671 -0400	checkout: moving from master to start
+94ed7771e1f43ccb4a9f8e4b2eff8147837af7ba f3693839ec00d14f719ea6fb1a0dd9eb8651f658 joe <joewwwh@gmail.com> 1686065673 -0400	commit (amend): some terminal commands L16
+f3693839ec00d14f719ea6fb1a0dd9eb8651f658 45d45a7af9ef210905cd76c661ef8455fd14a701 joe <joewwwh@gmail.com> 1686065682 -0400	commit (amend): some terminal commands L16
+45d45a7af9ef210905cd76c661ef8455fd14a701 2a486574c651541b3dc6237e3b03a2253db45972 joe <joewwwh@gmail.com> 1686065687 -0400	checkout: moving from start to master
+2a486574c651541b3dc6237e3b03a2253db45972 45d45a7af9ef210905cd76c661ef8455fd14a701 joe <joewwwh@gmail.com> 1686065692 -0400	rebase (start): checkout start
+45d45a7af9ef210905cd76c661ef8455fd14a701 85b78e2fc4ab97b23eab462c2ba022f32261b62e joe <joewwwh@gmail.com> 1686065692 -0400	rebase (pick): to ignore exclude commands from history L17
+85b78e2fc4ab97b23eab462c2ba022f32261b62e 85b78e2fc4ab97b23eab462c2ba022f32261b62e joe <joewwwh@gmail.com> 1686065692 -0400	rebase (finish): returning to refs/heads/master
+85b78e2fc4ab97b23eab462c2ba022f32261b62e 0000000000000000000000000000000000000000 joe <joewwwh@gmail.com> 1686065731 -0400	Branch: renamed refs/heads/master to refs/heads/terminal
+0000000000000000000000000000000000000000 85b78e2fc4ab97b23eab462c2ba022f32261b62e joe <joewwwh@gmail.com> 1686065731 -0400	Branch: renamed refs/heads/master to refs/heads/terminal
+85b78e2fc4ab97b23eab462c2ba022f32261b62e 5131e073c39dd7c13f111dbad16be4747638fcef joe <joewwwh@gmail.com> 1686067114 -0400	commit: setting HISTTIMEFORMAT variable
+5131e073c39dd7c13f111dbad16be4747638fcef ad4148b1e5c07d8aef90745e6c15bce0c18cbab8 joe <joewwwh@gmail.com> 1686067428 -0400	commit: bash history commands summary
+ad4148b1e5c07d8aef90745e6c15bce0c18cbab8 040cda7e9b7b8b1e52a983d102ac8f0d7aa60c29 joe <joewwwh@gmail.com> 1686068399 -0400	commit: getting root access L21
+040cda7e9b7b8b1e52a983d102ac8f0d7aa60c29 5bdd3354a7bfc7bea06f30002f67977004bf3f8f joe <joewwwh@gmail.com> 1686156982 -0400	commit: timestamp L29'
+5bdd3354a7bfc7bea06f30002f67977004bf3f8f ef63d3fe1f50fc6c70589a04830353fc83a010af joe <joewwwh@gmail.com> 1686156984 -0400	commit (amend): timestamp L29
+ef63d3fe1f50fc6c70589a04830353fc83a010af d70bd7c89d4c1e5d3503693c1585e23aa9862f3c joe <joewwwh@gmail.com> 1686159375 -0400	commit: sorting files using ls L30
+d70bd7c89d4c1e5d3503693c1585e23aa9862f3c 1e794234b8cdee3ca72c6acaf9cefa8883f5276b joe <joewwwh@gmail.com> 1686159928 -0400	commit (amend): sorting files using ls L30
+1e794234b8cdee3ca72c6acaf9cefa8883f5276b ad4148b1e5c07d8aef90745e6c15bce0c18cbab8 joe <joewwwh@gmail.com> 1686236141 -0400	checkout: moving from terminal to ad4148b
+ad4148b1e5c07d8aef90745e6c15bce0c18cbab8 1e794234b8cdee3ca72c6acaf9cefa8883f5276b joe <joewwwh@gmail.com> 1686236158 -0400	checkout: moving from ad4148b1e5c07d8aef90745e6c15bce0c18cbab8 to terminal
+1e794234b8cdee3ca72c6acaf9cefa8883f5276b 7a61c89a1a74a8fad4630e201e6ef90054014105 joe <joewwwh@gmail.com> 1662751718 -0400	commit: hardlinks L59
+7a61c89a1a74a8fad4630e201e6ef90054014105 dc30c6898c4090e1c2eaa79cfe59acc924a45e28 joe <joewwwh@gmail.com> 1662754295 -0400	commit: softlinks L60
+dc30c6898c4090e1c2eaa79cfe59acc924a45e28 1e794234b8cdee3ca72c6acaf9cefa8883f5276b joe <joewwwh@gmail.com> 1662754322 -0400	checkout: moving from terminal to find
+1e794234b8cdee3ca72c6acaf9cefa8883f5276b 0266e3c0c197341ad89c85248be78c31b7d8eb76 joe <joewwwh@gmail.com> 1686334686 -0400	commit: finding files & folders L47
+0266e3c0c197341ad89c85248be78c31b7d8eb76 7f800ff7cd9a918654aa06742cd842a043782c7c joe <joewwwh@gmail.com> 1686338162 -0400	commit: find and exec L48
+7f800ff7cd9a918654aa06742cd842a043782c7c dc30c6898c4090e1c2eaa79cfe59acc924a45e28 joe <joewwwh@gmail.com> 1686338173 -0400	checkout: moving from find to terminal
+dc30c6898c4090e1c2eaa79cfe59acc924a45e28 7f800ff7cd9a918654aa06742cd842a043782c7c joe <joewwwh@gmail.com> 1686338188 -0400	checkout: moving from terminal to find
+7f800ff7cd9a918654aa06742cd842a043782c7c dc30c6898c4090e1c2eaa79cfe59acc924a45e28 joe <joewwwh@gmail.com> 1686341624 -0400	checkout: moving from find to terminal
+dc30c6898c4090e1c2eaa79cfe59acc924a45e28 7f800ff7cd9a918654aa06742cd842a043782c7c joe <joewwwh@gmail.com> 1686341633 -0400	checkout: moving from terminal to find
+7f800ff7cd9a918654aa06742cd842a043782c7c 7f307d827cf250f9b796cfd40af0893efff03895 joe <joewwwh@gmail.com> 1686341656 -0400	commit: grep L50
+7f307d827cf250f9b796cfd40af0893efff03895 dc30c6898c4090e1c2eaa79cfe59acc924a45e28 joe <joewwwh@gmail.com> 1686341657 -0400	checkout: moving from find to terminal
+dc30c6898c4090e1c2eaa79cfe59acc924a45e28 7f307d827cf250f9b796cfd40af0893efff03895 joe <joewwwh@gmail.com> 1686341661 -0400	rebase (start): checkout find
+7f307d827cf250f9b796cfd40af0893efff03895 e9579415c8f10687ba6486c8d3d13edf83b0be2a joe <joewwwh@gmail.com> 1686341745 -0400	rebase (continue): hardlinks L59
+e9579415c8f10687ba6486c8d3d13edf83b0be2a 3a08600630bbd4c836eeac8f63a075267b1192b5 joe <joewwwh@gmail.com> 1686341748 -0400	rebase (continue) (pick): softlinks L60
+3a08600630bbd4c836eeac8f63a075267b1192b5 3a08600630bbd4c836eeac8f63a075267b1192b5 joe <joewwwh@gmail.com> 1686341748 -0400	rebase (continue) (finish): returning to refs/heads/terminal
+3a08600630bbd4c836eeac8f63a075267b1192b5 7f307d827cf250f9b796cfd40af0893efff03895 joe <joewwwh@gmail.com> 1686341756 -0400	checkout: moving from terminal to find
+7f307d827cf250f9b796cfd40af0893efff03895 3a08600630bbd4c836eeac8f63a075267b1192b5 joe <joewwwh@gmail.com> 1686341759 -0400	checkout: moving from find to terminal
