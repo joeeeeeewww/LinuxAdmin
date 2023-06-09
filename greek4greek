@@ -1,8 +1,0 @@
-
-find ./directory -name sample.txt 	--> find sample.txt in directory
-find ./directory -name *.txt 	-->  search for a file with patters
-find ./directory -name sample.txt  -exec rm -i {} \; 	--> find sample.txt & delete it
-find .directory -empty	--> find empty folders and files
-find ./directory -perm 775 	--> find file with certain permisssions
-find . -type f -name "*.txt" -exec grep 'greek' {} \;		--> print line which has 'greek' in it
-
