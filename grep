@@ -1,0 +1,14 @@
+
+grep user /etc/ssh/ssh_config 		-- search for word user in /etc/ssh/ssh_config
+grep -n user /etc/ssh/ssh_config 		-- use -n to print line numi,
+						 -w for word-only,
+						 -v for inverse,
+						 -s to supress errors,
+						 -c for count
+dmesg | grep -A 3 -B 4 error		--> print 3 lines for the found line,4 lines after, -C --> before and after
+
+netstat -tupan | grep 53	--> check for open 53 port num
+ls -RF /etc | grep / -v	| grep -v '^$'  	--> find but exclude directories and empty lines
+
+
+
