@@ -1,0 +1,5 @@
+
+scp -P 22 file-to-send username@ipaddress:path  --> sending file
+scp -r -P 22 /directoryToSend  username@ipaddress:~	--> sending directory to remote host
+scp -rp -P 22 /directoryToSend  username@ipaddress:~	-->preservers mtime & atime 
+scp username@ipaddrInHost:filelPath  pathInGuestOS	--> copy from host to guest
