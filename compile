@@ -1,0 +1,3 @@
+apt install build-essential	--> to install gcc,gc++ & make in ubuntu
+gcc file.cpp -o hello
+./hello	--> to run it
