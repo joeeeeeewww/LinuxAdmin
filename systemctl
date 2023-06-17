@@ -1,0 +1,12 @@
+systemctl status nginx.service	--> check status of nginx or wo .service
+systemctl stop nginx	--> stop it
+systemctl restart nginx	--> restart it
+systemctl reload nginx	--> to reload if configuration still intact
+systemctl reload-or-restart  nginx	--> if unsure
+systemctlt enabled  nginx	--> to configure a service to start at boot time 
+systemctlt is-enabled  nginx	--> to check whether a service is configured  to start at boot time 
+systemctl disable nginx	--> to disable to start at boot time
+systemctl mask nginx	--> make it unstartable
+systemctl  unmask  nginx	--> make it startable
+systemctl list-units	--> list of active units systemd knows about
+systemctl list-units i--all	--> list of  units(active or not) systemd knows about
