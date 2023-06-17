@@ -1,0 +1,28 @@
+lshw | less 	--> get hardware info
+or 
+lshw -json | less  --> in  json format
+lshw -html > ~/hardware.html	--> output as html file
+lshw -short | less  --> summary only
+inxi -Fx	--> another command
+lscpu --> displays info bout cpu
+dmidecode -t memory	--> displays info bout memory 
+dmidecode -t memory |grep -i size	--> check only the size
+free -m  --> check amount of memory used
+lspci	--> list devices connected to pci bus
+lspci | grep -i vga	--> filter the output
+lsusb	--> display only bout usb
+or 
+lsusb -v	--> display only bout usb(verbose)
+lshw -C disk	--> show harddisk info only
+lshw -C disk	--> show harddisk info only
+lshw -C disk -short	--> show harddisk info only single line
+lsblk	--> show block devices like hardisk & partitions
+fdisk -l	--> to show sectors,cylinders,etc
+hdparm -i /dev/sda2 --> get harddisk parameters info, use -I for more detailed info
+hdparm -t --direct /dev/sda	--> check access speed
+iw list --> list wireless devices
+cat /proc/cpuinfo	--> displays bout cpu
+cat /proc/meminfo	--> displays bout cpu
+uname -r --> get kernel version
+uname -a --> verbose
+acpi -bi 	--> shows battery capacity
