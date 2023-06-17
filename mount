@@ -1,4 +1,0 @@
-mount -l -t ext4	--> show only mounted ext4 fs
-umount -l /directory  --> will unmount as soon as its not busy
-mount -o ro /dev --> mount as readonly
-mount -o rw,remount /dev --> to remount as readwrite

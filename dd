@@ -1,0 +1,3 @@
+dd -if=/dev/sdb of=/home/backup-usb.img  status=progress
+dd if=/dev/sda of=/root/mbr.dat bs=512 count=1 -->back up mbr to root directory
+dd if=/pathToISoFile of=/dev/sdb bs=4M status=progress	--> write iso to usb
