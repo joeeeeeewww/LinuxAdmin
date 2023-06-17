@@ -1,0 +1,3 @@
+systemd --version	--> version
+systemd-analyze		-->show how long boot process took
+systemd-analyze blame	--> list of services during boot sorted based on time theyre executed
