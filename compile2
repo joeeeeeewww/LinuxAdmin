@@ -1,0 +1,24 @@
+Run this after downloading and extracting proftpd archive:
+./configure --help --> check options
+./configure --prefix=/opt/proftpd
+make	--> will do multiple compilations of the source files
+sudo make install	--> will make necessary directories
+
+go to /opt/proftpd
+then go to sbin/
+run sudo  ./proftpd &	--> to run in the background
+
+ps -ef | grep proftpd
+or
+pgrep -l proftpd
+
+pkill proftpd	--> to stop it
+
+./proftpd -n	--> run in the foreground
+
+
+/opt/proftpd/etc/proftpd.conf	--> where the server configuration file is
+
+To access the server: ftp://localhost
+
+
