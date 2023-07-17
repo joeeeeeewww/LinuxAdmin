@@ -1,0 +1,20 @@
+env	-- usd to display environmental variables (aka global variable)
+printenv $variable	-- will print value of the variable 
+env | grep $variable  --> to search for specific variable
+set | less  --> displays environmental variables as well as current shell variable
+
+var1=Linux	--> assigning a variable.There should be no space before & after 		--> equal sign.If value contains space, enclose in quotation.
+		--->In bash theres no float but only integers.Variable is weakly typed.
+
+echo $variable  --> to reference a variable
+name=jo
+echo "my name is $name' --> to use variable.Use doublequote,not single
+
+set --> to get all current shell  variables & functions
+set -o posix	--> to show only env variables wo functions
+unset variable  --> to unset variable value
+
+export $VAR="some value" in ~/.bashrc	--> to make user-defined variable
+export $VAR="some value" in /etc/profile or /etc/bash.bashrc	--> to make system-wide variable
+/etc/environment	-- this file  specifies system-wide variable to be set
+declare -r variable=value  --> to make variable constant.It cant be unset
