@@ -1,8 +1,0 @@
-Environmental variables --> are defined for the current shell and inherited by any child shells or processes.They are used to pass information to processes that arespawned from the current shell
---> its displayed using `env` or `printenv`
-
-
-Shell variables --> are exclusively within the shell they were set or defined. Its displayed using `set`
-
-User configuration file --> ~/.bashrc
-System-wide configuration  --> /etc/bash.bashrc and /etc/profile
