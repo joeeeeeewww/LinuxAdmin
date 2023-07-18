@@ -1,0 +1,11 @@
+#!/bin/bash
+#This script displays contents of all files in the current directory
+
+for item in ./* 	# ./* means any file in the current directory
+do
+	if [[ -f "$item" ]];then
+	echo "Displaying the contents of the $item"
+	sleep 2
+	cat $item
+	fi
+done
