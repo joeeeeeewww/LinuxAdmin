@@ -1,1 +1,0 @@
-By default variables are global in bash. To make variable local inside functions, precede with label local like local a=5
