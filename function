@@ -1,9 +1,0 @@
-#!/bin/bash
-
-function print_something(){		# keyword function is optional
-	echo " I'm a simple function"
-}
-
-print_something
-
-#Note: parenthesis is not used for arguments but for decoration only.Use arguments $1 $2 etc for passing arguments
