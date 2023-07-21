@@ -1,0 +1,19 @@
+# assigning values to array from stdin
+
+readarray months
+Jan
+Feb
+Mar
+Apr
+Cntrol +C	#--> to end 
+
+ 
+#assigning values to array using process substitution
+readarray months < <(cat months.txt)
+
+echo ${months[@]@Q}	--> to display array values including '\n'
+readarray -t months < <(cat months.txt)		--> to assign but not include newlines symbols
+
+readarray users< <(cut -d: -f1 /etc/passwd)	-->put all users from system to users array
+
+readarray -t files< <(ls /etc)		--> put all files in /etc to files array wo newlines 
