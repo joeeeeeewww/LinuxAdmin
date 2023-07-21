@@ -1,0 +1,24 @@
+ages=( 20 22 40 38)	--> declaring & assigning numeric arrays
+echo ${ages[@]}	 	--> to display basharray values
+echo ${ages[*]}		--> another way to display basharray values
+
+# Note: theres some difference between * & @ 
+
+echo ${!ages[*]}		--> to display the indices only
+echo ${#ages[*]}		--> to display size of array
+echo ${ages[0]}			--> to access index 0 
+echo ${ages[-1]}			--> to access last element
+
+numbers[0]=100			--> literal assignment of array
+numbers[0]=200			--> replacing value of array
+ 
+declare -a names		--> explicitly declare array
+names[0]="Dan"
+names[1]="Alina"
+
+# Note: element doesnt need to be contiguous
+
+unset names[0]			--> remove values from the array @ index 0
+
+
+
