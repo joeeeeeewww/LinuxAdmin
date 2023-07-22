@@ -1,0 +1,12 @@
+#This scripts iterate over /etc recursively and display the file content
+
+#!/bin/bash
+readarray -t files< <(ls ~/etc/*)
+
+for f in "${files[@]}"		# purpose of `"" is so that you can have filenames with spaces
+do	
+	if [[ -f $f && -r $f ]]
+	then 
+		cat $f
+	fi
+done
