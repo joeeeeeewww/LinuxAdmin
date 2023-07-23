@@ -1,0 +1,6 @@
+To limit process a user can launch:
+edit /etc/security/limits.conf
+
+append:
+username  hard mproc 2000
+admin	 hard mproc 4000   #for admin group
