@@ -1,0 +1,11 @@
+arp-scan is used to detect ipaddress of host in lan:
+
+arp-scan -I interface -l  	--> using arp-scan
+example arp-scan -I vboxnet0 -l
+
+Since arp-scan is noisy which means its easily detected , you can use
+netdiscover.
+netdiscover -i vboxnet0
+netdiscover -i vboxnet0 -r 192.168.0.0/24	--> scan entire subnet , r=range 
+use -p for passive scanning
+
