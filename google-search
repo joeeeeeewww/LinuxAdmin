@@ -1,0 +1,9 @@
+" words to search" --> to make sure results only contains the exact word order
+
+" words to search" -wordtoexclude filetype:pdf  	--> to make search results return pfd's only
+
+site:wikipedia intitle:security  --> the results are only from wikipedia with title containing `security`
+
+word | anotherword	--> using OR
+(word | anotherword)	--> using OR and parenthesis
+go to google.com/advanced_search	--> for advance options
