@@ -1,0 +1,2 @@
+sudo ipfs add yourfile		--> add file to ipfs which yields some hash
+access ipfs.io/ipfs/hash 	--> to access the file	
