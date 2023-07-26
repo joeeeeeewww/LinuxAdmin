@@ -1,7 +1,0 @@
-To install ipfs in ubuntu, go to dist.ipfs.tech and download archive for go-ipfs.
-Then decompress it. Enter to the folder and run sudo install.sh
-To test run ipfs --version.
-To initialize repo to store ipfs config, run sudo ipfs init.
-This is where it will store its settings and internal data.
-TO see id again type sudo ipfs id.
-To enjoin your node to the world , run `ipfs daemon`

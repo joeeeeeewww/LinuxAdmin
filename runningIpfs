@@ -1,0 +1,3 @@
+ipfs add -r folder	--> adding a folder to ipfs
+localhost:8080/ipfs/hashoffile	--> you can also request the folder from localgateway
+sudo ipfs ls hashOfDirectory	--> to list the folder in terminal
