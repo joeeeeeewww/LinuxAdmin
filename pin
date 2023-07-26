@@ -1,0 +1,5 @@
+ipfs pin ls --type-all	--> list all pinned files
+ipfs pin rm hash	--> unpin a file
+# if file still not unpinned: manually run garbage collector
+ipfs repo gc
+
