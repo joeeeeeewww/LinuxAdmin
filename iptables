@@ -1,0 +1,23 @@
+#Firewall is a network security system that monitors and control incoming & outgoing network traffic based on predermined security rules. A firewall typically establishes a barrier between a trusted internal network and untrusted external network such as  the internet.It is an important tool that can be configured to protect your servers and infrastructures. The firewall solutions for linux is Netfilter.
+# is a software firewall, a packet filtering framework, inside the linux kernel. It enables packet filtering, network and port address translation, port forwarding and packet alteration which is the process of intentionally altering  date in ip packet headers before or after the routing process.
+
+
+sudo iptables -L 	--> list the filter table
+sudo iptables -t nat  -L 	--> list the nat table chains
+
+# add a rule to filter table and input chain that drops incoming ping packets
+iptables -t filter  -A INPUT -p icmp --icmp-type echo-request -j DROP
+
+or  (filter table is default so can be dropped )
+
+iptables   -A INPUT -p icmp --icmp-type echo-request -j DROP
+
+sudo iptables -vnL	--> list rules in verbose
+
+#THis blocks access to ubuntu.com in this host
+#OUTPUT -cause its outgoing
+# -p=protocol which is tcp
+# --dport 80 for http , 443 for https --> the packets are going to these ports
+# -d= destination 
+iptables -t filter  -A OUTPUT -p tcp --dport 80  -d www.ubuntu.com -j DROP
+iptables -t filter  -A OUTPUT -p tcp --dport 443 -d www.ubuntu.com -j DROP
