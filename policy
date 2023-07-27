@@ -1,2 +1,0 @@
-iptables -P INPUT DROP	--> setting policy to drop traffic on input as if disconnecting host from network
-iptables -A INPUT -p tcp --dport 22 -j ACCEPT	-- accept tcp for port 22
