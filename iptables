@@ -34,3 +34,4 @@ iptables -X mychain	--> deletes user-defined chain
 iptables -P FORWARD DROP	--> set default policy in FORWARD CHAIN to DROPfor unmatched packets, initial default is ACCEPT.
 
 iptables -D OUTPUT 2	--> delete rule in OUTPUT chain on 2nd  position
+iptables -t nat -vnL 	--> list nat rules
