@@ -1,0 +1,14 @@
+1. match by single port
+match option: -p tcp --dport port, -p udp --sport port
+Ex:
+# Protocol is mandatory when filtering by port
+iptables -A INPUT -p tcp --dport 22 -j DROP 
+
+2. Match by multiple ports
+
+match option: -m multiport --sports |  --dports port1,port2,...
+Ex:
+iptables -A OUTPUT -p tcp -m multiport --dports 80,443 -j ACCEPT
+
+# this rule accepts traffic from machine with ip address
+iptables -A INPUT -p tcp --dport 22 -s 192.168.0.112 -j ACCEPT
