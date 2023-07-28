@@ -1,0 +1,13 @@
+# block incoming traffic another machine with ip 192.168.0.20
+iptables -A INPUT -s 192.168.0.20 -j DROP
+
+#block outgoing traffic to entire network  8.8.8.8/8 from this machine
+iptables -A OUTPUT -d 8.8.8.8/8 -j DROP
+
+# to find ipaddresses of www.ubuntu.com
+dig www.ubuntu.com    #   or nslookup www.ubuntu.com
+
+# to block outgoing traffic to ubuntu.com using domain
+iptables -A OUTPUT -d www.ubuntu.com -j DROP
+
+# 0/0 means any ipaddress with any mask
