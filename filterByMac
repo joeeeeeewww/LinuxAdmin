@@ -1,8 +1,0 @@
-It is possible to filter traffic only by source mac address
-
-Match: -m mac --mac-source sourceMacAddress
-
-Ex:
-iptables -A INPUT -i wlan0 -m mac --mac-source 08:27:55:6f:20 -j DROP
-
-iptables -A INPUT  -m mac --mac-source 08:27:55:6f:20 -j DROP
