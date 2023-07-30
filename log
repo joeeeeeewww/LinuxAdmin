@@ -1,0 +1,6 @@
+# syn --> first packet
+iptables -A INPUT -P TCP --dport 22 -syn -j LOG --log-prefix="incoming ssh traffic" --log-level info
+iptables -A INPUT -P TCP --dport 22 -syn -j DROP
+
+# TO CHECK kernel message run dmesg
+# or check on /var/log/kern.log --> this is persistent
