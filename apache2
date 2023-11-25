@@ -1,0 +1,3 @@
+ufw status 	-- check firewall status
+ufw allow 'Apache Full'		-- to unblock apache2 on firewall
+

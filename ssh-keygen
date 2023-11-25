@@ -1,5 +1,0 @@
-ssh-keygen  -- used to generate pka in Linux
-Example: ssh-keygen -b 2048 -t rsa -C "linux user on Jan 2020" where:
-b --> no of bits
-t --> type of authentication
-C --> comments
