@@ -1,0 +1,3 @@
+cat /etc/anacrontab  -- to create or edit anacron
+anacron -T  -- to check for syntax error
+anacron -d -- to run anacron
