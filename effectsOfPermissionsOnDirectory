@@ -1,5 +1,0 @@
-Effects of permissions on directories:
-1.If owner/user has Read permissions, he/she cant list directory contents using ls alias. Use \ls to make it work.
-2.The w permission(for creating & removing files) wont have effect unless x permission is present.
-3. The x permissions means you can enter or cd the directory and create/remove files( with w permissions)
-4.The parent directory permissions takes precedence over files  permissions.That is if parent directory has w permission for the owner and the file inside has 000 permission, the user can remove the file.
