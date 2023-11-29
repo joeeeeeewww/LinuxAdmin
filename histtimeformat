@@ -1,2 +1,0 @@
-HISTTIMEFORMAT="%d/%m/%y %T"	--> set this env variable to add datetime to history
-echo 'HISTTIMEFORMAT="%d/%m/%y %T"' >> ~/.bashrc  --> to make setting persistenteven after logging out	
