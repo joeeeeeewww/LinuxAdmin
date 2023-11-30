@@ -1,6 +1,0 @@
-
-find  /etc -type f -mtime 0 -exec cat {} \;	--> this commands will run cat for every file found by find
-find  /etc -type f -mtime -7 -exec cp {} root/backup  \;	--> this commands will copy files found to /root/backup
-
-
-
