@@ -1,6 +1,0 @@
-type [command]	-- to know if a command is builtin or executable
-
-Note:ONly when an executable file is run that a new process is created.
-The process has the access right of the user when run by a user.
-Threads are subprocesses.
-ps -ef | less	-- to display all current running processes
