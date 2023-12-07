@@ -1,3 +1,0 @@
-read name --> read from input and assign to variable name
-read -p 'Enter ip address' ip  --> read from input with a message
-use -s option when inputting the value of the input without echoing
